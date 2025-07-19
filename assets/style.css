@@ -1,0 +1,27 @@
+/* Light theme (default) */
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Dark theme */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode .form-control,
+body.dark-mode .input-group-text,
+body.dark-mode .btn {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-color: #444;
+}
+body.dark-mode input::placeholder {
+    color: #ffffff; /* সাদা রঙ */
+    opacity: 0.7;   /* একটু হালকা রাখলে দেখতে ভালো লাগে */
+}
+body.dark-mode textarea::placeholder {
+    color: #ffffff;
+    opacity: 0.7;
+}
